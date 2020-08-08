@@ -36,10 +36,6 @@ def find_a(array)
     word[0] == "a"
   end
 
-  # using select method
-    # array.select do |word|
-    #   word[0] == "a"
-    # end
 end
 
 def sum_array(array)
@@ -49,16 +45,6 @@ def sum_array(array)
   end
   sum
 
-  # using reduce method
-    # array.reduce(:+)
-
-  # using inject method (short)
-     # array.inject(:+)
-
-  # using inject method (long)
-     # array.inject do |sum,x|
-     #  sum + x
-     # end
 end
 
 def add_s(array)
